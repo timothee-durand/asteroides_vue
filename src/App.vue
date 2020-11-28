@@ -7,11 +7,26 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import axios from 'axios'
 
 export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+    let params = {
+    params : {
+      start_date:"2020-11-20",
+          end_date: "2020-11-27",
+          api_key: "ImcCTL1HchrPNRcUJXadRJdVWCN88bJKvPkINGl2"
+    }
+    };
+    // // params.append("start_date", "2020-11-20");
+    // params.append("end_date", "2020-11-27");
+    // params.append("api_key", "ImcCTL1HchrPNRcUJXadRJdVWCN88bJKvPkINGl2");
+
+    axios.get("https://api.nasa.gov/neo/rest/v1/feed", params).then(reponse => console.log(reponse));
   }
 }
 </script>
