@@ -120,7 +120,7 @@ export default {
 function generateListImgUrl() {
   let arrayImg = [];
 
-  for (let i = 0; i <= params.numberImageAsteroide - 1; i++) {
+  for (let i = 1; i <= params.numberImageAsteroide; i++) {
     arrayImg.push(params.urlAsteroides + i + ".png");
   }
 
