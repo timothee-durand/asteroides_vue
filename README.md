@@ -1,4 +1,4 @@
-# spotify_vue
+# asteroide_vue
 
 ## Project setup
 ```

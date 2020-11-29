@@ -8,11 +8,18 @@ Vue.prototype.$http = axios
 
 Vue.use(require('vue-moment'));
 
+
 import vueNumeralFilterInstaller from 'vue-numeral-filter';
 
 Vue.use(vueNumeralFilterInstaller, { locale: 'fr' });
 
+import VueParallaxJs from 'vue-parallax-js'
+
+// add vue-parallax-js to vue
+Vue.use(VueParallaxJs)
+
 Vue.config.productionTip = false
+
 
 new Vue({
   vuetify,
