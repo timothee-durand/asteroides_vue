@@ -17,7 +17,7 @@
               <v-col cols="4" offset="2"><h1>Astéroides</h1></v-col>
             </v-row>
             <v-row>
-              <v-col cols="6" offset="1"><p>Vous avez toujours voulu savoir quels astéroïdes sont passés près de chez nous
+              <v-col cols="6" offset="1"><p>Vous avez toujours voulu savoir quels astéroïdes sont passés près de chez vous
                 ? Vous êtes au bon endroit. Sélectionnez une date et...</p></v-col>
             </v-row>
           </v-container>
